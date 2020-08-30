@@ -15,8 +15,8 @@ export const Add = () => {
         setQuery(userInput)
 
 
-        
-        const URL = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1&include_adult=false&query=${userInput}`
+        const apiKey = '52cfb1807bf7168380d7ca582aad8997'
+        const URL = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&page=1&include_adult=false&query=${userInput}`
         fetch(URL)
             .then((res) => res.json())
             .then((data) => {
