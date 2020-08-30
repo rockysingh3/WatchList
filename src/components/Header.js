@@ -15,7 +15,7 @@ export const Header = () => {
 
                     <ul className="nav-links">
                         <li>
-                            <Link to="/">WatchList</Link>
+                            <Link to="/watchlist">WatchList</Link>
                         </li>
 
                         <li>

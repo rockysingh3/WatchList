@@ -21,6 +21,10 @@ function App() {
             <Watchlist />
           </Route>
 
+          <Route path="/watchlist">
+            <Watchlist />
+          </Route>
+
           <Route path="/watched">
             <Watched />
           </Route>
